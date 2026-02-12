@@ -1,135 +1,145 @@
-📱 CMPSC 131 Social Network Final Project
-👤 Author
+# 📱 CMPSC 131 Social Network Final Project
 
-Name: Amogh Krishna Namuduri
-GitHub: AmoghNamuduri
-Course: CMPSC 131 – Fall 2024
+## 👤 Author
 
-📌 Project Overview
+**Name:** Amogh Krishna Namuduri\
+**GitHub:** AmoghNamuduri\
+**Course:** CMPSC 131 -- Fall 2024
 
-This project implements a console-based social networking system using Python.
-It simulates basic social network operations such as user authentication, friend management, and network analysis using core computer science concepts like dictionaries, graph traversal, and sorting algorithms.
+------------------------------------------------------------------------
 
-The application loads user data from a file, encrypts passwords, and allows users to interact with their social network through a menu-driven interface.
+## 📌 Project Overview
 
-🚀 Features
-🔐 User Authentication
+This project implements a **console-based social networking system**
+using Python.\
+It simulates basic social network operations such as user
+authentication, friend management, and network analysis using core
+computer science concepts like dictionaries, graph traversal, and
+sorting algorithms.
 
-Password encryption using a Caesar-style cipher
+The application loads user data from a file, encrypts passwords, and
+allows users to interact with their social network through a menu-driven
+interface.
 
-Secure login verification
+------------------------------------------------------------------------
 
-👥 Friend Management
+## 🚀 Features
 
-Add friends (mutual connection)
+### 🔐 User Authentication
 
-Remove friends
+-   Password encryption using a Caesar-style cipher
+-   Secure login verification
 
-Prevent duplicate friendships
+### 👥 Friend Management
 
-📊 Social Network Insights
+-   Add friends (mutual connection)
+-   Remove friends
+-   Prevent duplicate friendships
 
-Sort friend list based on common friends
+### 📊 Social Network Insights
 
-Find nth-level friends using Breadth-First Search (BFS)
+-   Sort friend list based on common friends
+-   Find nth-level friends using **Breadth-First Search (BFS)**
+-   Count number of friends by country
 
-Count number of friends by country
+------------------------------------------------------------------------
 
-🧠 Computer Science Concepts Used
+## 🧠 Computer Science Concepts Used
 
-Dictionaries and Lists
+-   Dictionaries and Lists
+-   File Handling
+-   Encryption Basics
+-   Error Handling using Error Codes
+-   Bubble Sort Algorithm
+-   Graph Traversal (BFS)
+-   Data Structure Mutation
+-   CLI (Command Line Interface) Design
 
-File Handling
+------------------------------------------------------------------------
 
-Encryption Basics
+## 📂 File Structure
 
-Error Handling using Error Codes
+    final_project.py     # Main application code
+    users.txt            # Input file containing user data (required to run)
 
-Bubble Sort Algorithm
+------------------------------------------------------------------------
 
-Graph Traversal (BFS)
-
-Data Structure Mutation
-
-CLI (Command Line Interface) Design
-
-📂 File Structure
-Social_network.py     # Main application code
-users_small.txt            # Input file containing user data (required to run) 
-
-📄 Input File Format
+## 📄 Input File Format
 
 Each line in the input file must follow this format:
 
-username, password, bio, country | friend1, friend2, friend3
+    username, password, bio, country | friend1, friend2, friend3
 
-Example:
-Amogh, pass123, Data Science student, USA | Alex, John
-Alex, hello123, CS major, Canada | Amogh
-John, test456, Gamer, UK | Amogh
+### Example:
 
+    Amogh, pass123, Data Science student, USA | Alex, John
+    Alex, hello123, CS major, Canada | Amogh
+    John, test456, Gamer, UK | Amogh
 
 ⚠ Spaces matter in the formatting.
 
-▶️ How To Run
-1️⃣ Clone Repository
+------------------------------------------------------------------------
+
+## ▶️ How To Run
+
+### 1️⃣ Clone Repository
+
+``` bash
 git clone <your-repo-link>
 cd <repo-folder>
+```
 
-2️⃣ Run Program
+### 2️⃣ Run Program
+
+``` bash
 python final_project.py
+```
 
-3️⃣ Enter File Path When Prompted
+### 3️⃣ Enter File Path When Prompted
 
 Example:
 
-Enter users file path: users.txt
+    Enter users file path: users.txt
 
-🖥️ Application Menu
-1. Add Friend
-2. Remove Friend
-3. Display Friend List (Sorted)
-4. Display nth Level Friends
-5. Display Countries in Network
-6. Log Out
-7. Display Menu
+------------------------------------------------------------------------
 
-🔑 Error Handling
+## 🖥️ Application Menu
 
-The program uses error codes for handling failures such as:
+    1. Add Friend
+    2. Remove Friend
+    3. Display Friend List (Sorted)
+    4. Display nth Level Friends
+    5. Display Countries in Network
+    6. Log Out
+    7. Display Menu
 
-Duplicate users
+------------------------------------------------------------------------
 
-Authentication failure
+## 🔑 Error Handling
 
-Friend not found
+The program uses error codes for handling failures such as: - Duplicate
+users - Authentication failure - Friend not found - User not found
 
-User not found
+------------------------------------------------------------------------
 
-📚 Learning Outcomes
+## 📚 Learning Outcomes
 
-This project demonstrates:
+This project demonstrates: - Building structured applications -
+Designing authentication logic - Implementing graph traversal
+algorithms - Working with real-world data relationships
 
-Building structured applications
+------------------------------------------------------------------------
 
-Designing authentication logic
+## 📌 Notes
 
-Implementing graph traversal algorithms
+-   This project was completed individually.
+-   No external libraries were used beyond Python standard library.
 
-Working with real-world data relationships
+------------------------------------------------------------------------
 
-📌 Notes
+## 🛠 Future Improvements
 
-This project was completed individually.
-
-No external libraries were used beyond Python standard library.
-
-🛠 Future Improvements
-
-GUI or Web Interface (Flask / React)
-
-Stronger encryption method (Hashing)
-
-Database storage instead of file input
-
-Unit testing support
+-   GUI or Web Interface (Flask / React)
+-   Stronger encryption method (Hashing)
+-   Database storage instead of file input
+-   Unit testing support
