@@ -59,8 +59,8 @@ interface.
 
 ## 📂 File Structure
 
-    final_project.py     # Main application code
-    users.txt            # Input file containing user data (required to run)
+    Social_network.py     # Main application code
+    users_small.txt            # Input file containing user data (required to run)
 
 ------------------------------------------------------------------------
 
@@ -92,14 +92,14 @@ cd <repo-folder>
 ### 2️⃣ Run Program
 
 ``` bash
-python final_project.py
+python Social_network.py
 ```
 
 ### 3️⃣ Enter File Path When Prompted
 
 Example:
 
-    Enter users file path: users.txt
+    Enter users file path: users_small.txt
 
 ------------------------------------------------------------------------
 
@@ -134,6 +134,9 @@ algorithms - Working with real-world data relationships
 
 -   This project was completed individually.
 -   No external libraries were used beyond Python standard library.
+-   Dataset used does not belong to the collaborator
+-   It was provide by Penn State University for academic coursework.
+-   Used only for educational purposes.
 
 ------------------------------------------------------------------------
 
