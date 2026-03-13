@@ -1,10 +1,9 @@
-# 📱 CMPSC 131 Social Network Final Project
+# 📱Social Network Project
 
 ## 👤 Author
 
 **Name:** Amogh Krishna Namuduri\
 **GitHub:** AmoghNamuduri\
-**Course:** CMPSC 131 -- Fall 2024
 
 ------------------------------------------------------------------------
 
