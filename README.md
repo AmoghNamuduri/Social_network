@@ -2,7 +2,7 @@
 
 ## 👤 Author
 
-**Name:** Amogh Krishna Namuduri
+**Name:** Amogh Krishna Namuduri\
 **GitHub:** AmoghNamuduri
 
 ------------------------------------------------------------------------
