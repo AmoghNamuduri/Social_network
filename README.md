@@ -2,8 +2,8 @@
 
 ## 👤 Author
 
-**Name:** Amogh Krishna Namuduri\
-**GitHub:** AmoghNamuduri\
+**Name:** Amogh Krishna Namuduri
+**GitHub:** AmoghNamuduri
 
 ------------------------------------------------------------------------
 
